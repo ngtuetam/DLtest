@@ -2,7 +2,7 @@
          Một giá trị được gọi là Hoàng Hậu khi nó là giá trị lớn nhất trên dòng, trên cột và hai đường chéo đi qua nó.
  '''
 '''Solution:    
- - Ham ismaxDirection(a,n,col,row,x,y) x,y la buoc nhay de kiem tra phan tu lon nhat tren dg cheo
+ - Ham ismaxDirection(a,n,row,col,x,y) x,y la buoc nhay de kiem tra phan tu lon nhat tren dg cheo
  - Ham isQueen(a,n,row,col)
     + Ktra ptu lon nhat tren hang
     + Ktra ptu lon nhat tren cot
