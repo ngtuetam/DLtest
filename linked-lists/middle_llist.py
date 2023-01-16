@@ -1,3 +1,4 @@
+# O(n)
 class Node:
     def __init__(self, value):
         self.value = value
@@ -34,13 +35,16 @@ class LinkedList:
         while tmp:
             cnt+=1
             tmp = tmp.next
-        return cnt
+        mid = cnt // 2
+        mid_node = self.head
+        for _ in range(mid):
+            mid_node = mid_node.next
+        return mid_node.value
 
 my_linked_list = LinkedList(1)
 my_linked_list.append(2)
 my_linked_list.append(3)
 my_linked_list.append(4)
 my_linked_list.append(5)
-my_linked_list.append(6)
-my_linked_list.append(7)
 print(my_linked_list.middle())
+
