@@ -9,7 +9,7 @@ class Node:
 
 
 class Solution:
-    def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
+    def copyRandomList(self, head):
         # create a hash map, init None -> None for edge case
         oldtocopy = {None:None}
         # first pass to init value
