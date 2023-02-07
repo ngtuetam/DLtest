@@ -39,7 +39,7 @@ class LinkedList:
                 cur.next = cur.next.next
             else:
                 cur = cur.next
-        self.head = dummy_node.next
+        # self.head = dummy_node.next
         return dummy_node
 
 
